@@ -11,7 +11,7 @@
 ## Prepare your computer
 
 1. Install **Node and npm**. Go to [Node Webiste](https://nodejs.org/es/download/) and download the install program and follow steps.
-2. Install **vue cli dependency**. Put in your terminal and ```npm i -g @vue-cli```
+2. Install **vue cli dependency**. Put in your terminal and ```npm i -g @vue/cli```
 3. Install some editor **[visual studio code](https://code.visualstudio.com/Download)**, **[sublime](https://www.sublimetext.com/3)** or **[atom](https://atom.io/)**.
 4. Install some **recommended extensions**:
 
@@ -62,7 +62,7 @@ Congrats, you will see your first application build with VueJS!
 
 ## Take a look inside in your new project
 
-If you open your new application with your favorite editor (Visual studio Code, Atom, Sublime or another one). You will see the following architecture of your new application when you open with your editor.
+If you open your new application with your favorite editor (Visual studio Code, Atom, Sublime or another one). You will see the following architecture of your new application.
 
 ![Project folder](./images/6.png)
 
@@ -357,7 +357,7 @@ header {
   padding: 0 20px;
   z-index: 10;
 
-  a {
+  button {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
@@ -502,7 +502,7 @@ With the changes that we did in `TheHeader.vue`, now we need to adapt the `Home.
 First at all, we need to pay attention on the template.
 Because we need to pass dynamically the property `step`.
 And we need to catch the three emits from `TheHeader.vue`: `go-to-home`, `next-step`, `share-post`.
-And then handle to do new things with our methods inside of our `Home.vue` component.
+And then handle doing new things with our methods inside of our `Home.vue` component.
 
 ````
 <template>
@@ -924,7 +924,7 @@ First at all you need to open your index.html and add inside of your `<head>` ta
 
 ## Posts.js
 
-Now, you need to create a fake data of posts. For this you need to create a new folder called `/data` and inside of it create a new file called `posts.js`. The array of information could be something like following code:
+Now, you need to create a fake data of posts. For this you need to create a new folder called `/data` inside of `/src` folder and create a new file called `posts.js`. The array of information could be something like following code:
 
 ````
 export default [
@@ -1432,4 +1432,4 @@ And it's all. You have finished this tutorial, congratulations!!
 
 Made with ❤️ by [Cristina Ponce](https://twitter.com/cristinagrim)
 
-If you want to see this repository, you have here the link to [Github](https://twitter.com/cristinagrim)
+If you want to see this repository, you have here the link to [Github](https://github.com/crisgrim/vuevixens-instagram)
