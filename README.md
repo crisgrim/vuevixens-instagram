@@ -30,7 +30,7 @@ When you put it in your terminal you will find several steps to follow:
 
 Pick Manually select feature
 
-![Pick Manually select features](./images/1.png)
+![Pick Manually select features](/images/1.png)
 
 Pick some feature for your project: Babel, Router, Vuex, CSS Preprocessors, Linter, Unit Test, E2E Test...
 
